@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Architecture & Semantic HTML5</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0056b3;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px 0 10px 0;
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+
+    nav {
+      background-color: #004494;
+      padding: 8px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px 30px;
+      background-color: #ffffff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    h2 {
+      color: #0056b3;
+      font-size: 16px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #222;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 6px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      font-size: 13px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+</body>
+</html>

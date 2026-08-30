@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Architecture & Semantic HTML5</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0056b3;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px 0 10px 0;
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+
+    nav {
+      background-color: #004494;
+      padding: 8px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px 30px;
+      background-color: #ffffff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    h2 {
+      color: #0056b3;
+      font-size: 16px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #222;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 6px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      font-size: 13px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Architecture & Semantic HTML5</h1>
+  </header>
+
+  <nav>
+    <a href="#web-architecture">Web Architecture</a> |
+    <a href="#multimedia">Multimedia</a> |
+    <a href="#form-validation">Form Validation</a>
+  </nav>
+
+  <div class="container">
+    <h2 id="web-architecture">1. Web Architecture Concepts</h2>
+    <h3>Client-Server Model</h3>
+    <p>The <strong>Client</strong> (your browser) sends a request, and the <strong>Server</strong> returns the web page response.</p>
+
+    <h3>DNS (Domain Name System)</h3>
+    <p>Translates human-friendly domain names (like <em>example.com</em>) into numeric IP addresses.</p>
+
+    <h4>HTTP vs HTTPS</h4>
+    <p><strong>HTTP</strong> sends data in plain text, while <strong>HTTPS</strong> encrypts data securely using SSL/TLS.</p>
+
+    <h2 id="multimedia">2. HTML5 Multimedia</h2>
+    <h3>Audio Tag:</h3>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+
+    <h4>Video Tag:</h4>
+    <video controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video> 
+
+    <h2 id="form-validation">3. HTML5 Form & Validation</h2>
+    <form>
+      <label for="fullname">Full Name (Required):</label><br>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email (Native Validation):</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="protocol">Which protocol uses encryption?</label><br>
+      <select id="protocol" name="protocol">
+        <option disabled selected>- Select an option -</option>
+        <option>HTTP</option>
+        <option>HTTPS</option>
+      </select><br><br>
+
+      <button type="submit">Submit Form</button>
+    </form>
+  </div>
+</body>
+</html>
